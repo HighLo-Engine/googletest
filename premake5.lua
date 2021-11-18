@@ -16,10 +16,10 @@ project "GoogleTest"
 	
 	includedirs
 	{
+		"googletest",
+		"googlemock",
 		"googletest/include",
-		"googlemock/include",
-		"googletest/src",
-		"googlemock/src"
+		"googlemock/include"
 	}
 	
 	filter "system:windows"
