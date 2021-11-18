@@ -14,6 +14,14 @@ project "GoogleTest"
 		"googlemock/src/**.cc",
 	}
 	
+	includedirs
+	{
+		"googletest/include",
+		"googlemock/include",
+		"googletest/src",
+		"googlemock/src"
+	}
+	
 	filter "system:windows"
 		systemversion "latest"
 
